@@ -3,8 +3,8 @@
 var name = 'kuddus';
 function add (num1, num2){
     // jodi result er agee var na thake than eta global hoe jabe
-    result = num1 + num2;
-    // var result = num1 + num2;
+    // result = num1 + num2;
+    var result = num1 + num2;
     console.log ('result inside', result);
     console.log ('name inside', name);
     function double (num){
@@ -18,4 +18,4 @@ function add (num1, num2){
 console.log ('name outside', name);
 var sum = add(13,21);
 console.log(sum);
-console.log('outside', result);
+// console.log('outside', result);
